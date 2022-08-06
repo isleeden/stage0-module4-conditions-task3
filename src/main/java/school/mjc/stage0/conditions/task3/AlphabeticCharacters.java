@@ -4,9 +4,10 @@ public class AlphabeticCharacters {
     public void vowelDeterminer(char character) {
         int ch = symbol;
         if((65 <= ch && ch <= 90) || (97 <= ch && ch <= 122)) { 
-            if(character == 'a' || character == 'e' || character == 'i' || character == 'o' || character == 'u' || character == 'A' || character == 'E' || character == 'I' || character == 'O' || character == 'U'){
+            if(character == 'a' || character == 'e' || character == 'i' || character == 'o' || character == 'u'){
                 System.out.println("Vowel");
-            } else { 
+            }
+            else { 
                 System.out.println("Consonant");
             }
         } else {    
